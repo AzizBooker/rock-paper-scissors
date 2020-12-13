@@ -1,0 +1,40 @@
+body{
+    background-color:#B4C4DB;
+}
+h1,p{
+    color:#30425C ;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin: 1% 1% 1% 1%;
+}
+.player{
+grid-column-start: 1;
+display: flex;
+flex-direction: column;
+text-align: center;
+
+
+}
+.arena{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+    grid-column: 2;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+input[type='button']{
+    background-color: #30425C;
+    
+    width: 20%;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#B4C4DB ;
+}
